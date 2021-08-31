@@ -79,15 +79,6 @@ $130=300.000
 $131=300.000 	
 $132=80.000 	
 
-//--WIFI Configrations-----//
-//STA or AP
-[ESP110]STA  
- 	
-//WIFI SSID, 1~32 characters
-[ESP100]MAKERBASE3D 	
-
-//WIFI KEY, 8~32 characters 
-[ESP101]abcdefgh	
 
 //--Version Configrations-----//
 //--Used to be displayed on About Menu-----//
