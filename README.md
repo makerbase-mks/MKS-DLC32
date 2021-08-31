@@ -23,7 +23,26 @@ Here is an introduce video: https://www.youtube.com/watch?v=U_OzlMxwms8&t=6s
 | Mobile APP Control	| Not Support	| Support |
 | LaserGRBL	| Support |	Support |
 | LightBurn	| Support |	Support |
-# Parameters configuration 
+
+# FIRMWARE
+The firmware of MKS DLC32 has been burned before leaving the factory. If you really need to update the firmware, you can follow the update instructions [here](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware#method-of-upload-firmware).
+
+# Configration file
+When you want to use MKS DLC32 to install to a new machine, you generally need to configure parameters to fit your engraving machine. There are two ways to configure parameters, one is to configure through the configration file, and the other is to configure through a USB connection to the PC software.
+
+## Configure through configuration files
+1. Download the configuration file "dlc_cfg.txt" from MKS GITHUB: https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware
+2. Modify the corresponding configuration items according to your engraving machine needs. For specific parameters configrations you can refer to 
+3. Save "dlc_cfg.txt" and copy to TF card.
+4. Insert the TF card to DLC32 motherboard, restart it, and it will be automatically configured.
+
+## Configure through PC software
+1. Use a USB cable to connect the DLC32 to the PC
+2. Open the LaserGRBL software or LightBurn or other serial tools on the PC (the default baud rate is 115200)
+3. Modify the configuration items. For specific configuration commands, please refer to 
+
+
+## Parameters configuration 
 You can use PC software such as GRBLaser to config the parameters by sending commands, here is the list:
 
 | COMMANDS      |  PARAMETERS  | DESCRIPTION |
@@ -63,7 +82,7 @@ You can use PC software such as GRBLaser to config the parameters by sending com
 | $131	 | 272 | 	Maximum Y-axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances. |
 | $132	 | 80	 | Maximum Z-axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances. |
 
-## XYZ TABLE
+### XYZ TABLE
 For the commands of $2/$3/$23, the detailed parameters can be refer to:
 | Directions | Parameters |
 |----------|--------------|
