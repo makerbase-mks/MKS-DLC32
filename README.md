@@ -21,7 +21,7 @@ Here is an introduce video: https://www.youtube.com/watch?v=U_OzlMxwms8&t=6s
 | WiFi On Board	| Not Support	| Support |
 | Web Control	| Not Support	| Support |
 | Mobile APP Control	| Not Support	| Support |
-| GRBLaser	| Support |	Support |
+| LaserGRBL	| Support |	Support |
 | LightBurn	| Support |	Support |
 # Parameters configuration 
 You can use PC software such as GRBLaser to config the parameters by sending commands, here is the list:
