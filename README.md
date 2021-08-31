@@ -30,8 +30,8 @@ You can use PC software such as GRBLaser to config the parameters by sending com
 |------------|--------------------|--------------------|
 | $0 | 	10	 | Sets time length per step. Minimum 3usec. |
 | $1 | 	5 | 	Sets a short hold delay when stopping to let dynamics settle before disabling steppers. Value 255 keeps motors enabled with no delay. |
-| $2	 | 0	 | Inverts the step signal. Set axis bit to invert (00000ZYX). The details can refer to (XYZ-TABLE)[https://github.com/makerbase-mks/MKS-DLC32#xyz-table]|
-| $3 | 	1	 | Inverts the direction signal. Set axis bit to invert (00000ZYX). The details can refer to (XYZ-TABLE)[https://github.com/makerbase-mks/MKS-DLC32#xyz-table]|
+| $2	 | 0	 | Inverts the step signal. Set axis bit to invert (00000ZYX). The details can refer to [XYZ-TABLE](https://github.com/makerbase-mks/MKS-DLC32#xyz-table)|
+| $3 | 	1	 | Inverts the direction signal. Set axis bit to invert (00000ZYX). The details can refer to [XYZ-TABLE](https://github.com/makerbase-mks/MKS-DLC32#xyz-table)|
 | $4 | 	0	 | Inverts the stepper driver enable pin signal. |
 | $5 | 	1	 | Inverts the all of the limit input pins. |
 | $6 | 	0	 | Inverts the probe input pin signal. |
@@ -42,7 +42,7 @@ You can use PC software such as GRBLaser to config the parameters by sending com
 | $20	 | 0 | 	Enables soft limits checks within machine travel and sets alarm when exceeded. Requires homing. |
 | $21 | 	0 | 	Enables hard limits. Immediately halts motion and throws an alarm when switch is triggered. |
 | $22 | 0	 | Enables homing cycle. Requires limit switches on all axes. |
-| $23	 | 0	 | Homing searches for a switch in the positive direction. Set axis bit (00000ZYX) to search in negative direction. The details can refer to (XYZ-TABLE)[https://github.com/makerbase-mks/MKS-DLC32#xyz-table]|
+| $23	 | 0	 | Homing searches for a switch in the positive direction. Set axis bit (00000ZYX) to search in negative direction. The details can refer to [XYZ-TABLE](https://github.com/makerbase-mks/MKS-DLC32#xyz-table)|
 | $24	 | 300	 | Feed rate to slowly engage limit switch to determine its location accurately. |
 | $25	 | 1000	 | Seek rate to quickly find the limit switch before the slower locating phase. |
 | $26	 | 250 | 	Sets a short delay between phases of homing cycle to let a switch debounce. |
