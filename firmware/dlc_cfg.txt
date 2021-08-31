@@ -1,55 +1,48 @@
 
-/************************************说明***************************************/ 
- *------$0      //(Step pulse time)                                                                                             
- *------$1      //(Step idle delay)                                                         
- *------$2      //(Step pulse invert)                                                       
- *------$3      //(Step direction invert)                                                   
- *------$4      //(Invert step enable pin)                                          
- *------$5      //(Invert limit pins)                                               
- *------$6      //(Invert probe pin)                                                
- *------$10     //(Status report options)                                           
- *------$11     //(Junction deviation)                                              
- *------$12     //(Arc tolerance)                                                   
- *------$13     //(Report in inches)                                                
- *------$20     //(Soft limits enable)                                              
- *------$21     //(Hard limits enable)                                              
- *------$22     //(Homing cycle enable)                                             
- *------$23     //(Homing direction invert)                                         
- *------$24     //(Homing locate feed rate)                                         
- *------$25     //(Homing search seek rate)                                         
- *------$26     //(Homing switch debounce delay)                                    
- *------$27     //(Homing switch pull-off distance)                                 
- *------$30     //(Maximum spindle speed)                                           
- *------$31     //(Minimum spindle speed)                                           
- *------$32     //(Laser-mode enable)                                               
- *------$100    //(X-axis travel resolution)                                        
- *------$101    //(Y-axis travel resolution)                                        
- *------$102    //(Z-axis travel resolution)                                        
- *------$110    //(X-axis maximum rate)                                             
- *------$111    //(Y-axis maximum rate)                                             
- *------$112    //(Z-axis maximum rate)                                             
- *------$120    //(X-axis acceleration)                                             
- *------$121    //(Y-axis acceleration)                                             
- *------$122    //(Z-axis acceleration)                                             
- *------$130    //(X-axis maximum travel)                                           
- *------$131    //(Y-axis maximum travel)                                           
- *------$132    //(Z-axis maximum travel)                                           
-/*******************************************************************************/ 
+/*****This part is the reference,please don't modify this part******/ 
+ *------$0      : Step pulse time                                                                                            
+ *------$1      : Step idle delay                                                         
+ *------$2      : Step pulse invert                                                       
+ *------$3      : Step direction invert                                                  
+ *------$4      : Invert step enable pin                                          
+ *------$5      : Invert limit pins                                               
+ *------$6      : Invert probe pin                                                
+ *------$10     : Status report options                                           
+ *------$11     : Junction deviation                                              
+ *------$12     : Arc tolerance                                                   
+ *------$13     : Report in inches                                                
+ *------$20     : Soft limits enable                                              
+ *------$21     : Hard limits enable                                              
+ *------$22     : Homing cycle enable                                             
+ *------$23     : Homing direction invert                                         
+ *------$24     : Homing locate feed rate                                         
+ *------$25     : Homing search seek rate                                         
+ *------$26     : Homing switch debounce delay                                    
+ *------$27     : Homing switch pull-off distance                                 
+ *------$30     : Maximum spindle speed                                           
+ *------$31     : Minimum spindle speed                                           
+ *------$32     : Laser-mode enable                                               
+ *------$100    : X-axis travel resolution                                        
+ *------$101    : Y-axis travel resolution                                        
+ *------$102    : Z-axis travel resolution                                        
+ *------$110    : X-axis maximum rate                                             
+ *------$111    : Y-axis maximum rate                                             
+ *------$112    : Z-axis maximum rate                                             
+ *------$120    : X-axis acceleration                                             
+ *------$121    : Y-axis acceleration                                             
+ *------$122    : Z-axis acceleration                                             
+ *------$130    : X-axis maximum travel                                           
+ *------$131    : Y-axis maximum travel                                           
+ *------$132    : Z-axis maximum travel                                           
+ 
+*--------------Machine parameters configration format : $x=y
+*--------------Functions configration format : [ESPxxx]yyy  (Please modify the value of "xxx" and "yyy" according to your requirement)
 
-/************************************说明***************************************/
-DLC_TEST=1        // 0为正常模式， 1为生产测试模式
-/********************************************************************************/
 
-/************************************说明***************************************/
-*--------------机器参数格式："$x=y"
-*--------------功能配置格式："[ESPXXX]yyy" (xxx 和 yyy请按照说明手册更改)
-
-*------1、不能随意更换机器参数格式中，x的值，否则会出现配置错误导致无法启动
-*------2、不能随意添加可配置项
-/*******************************************************************************/ 
+/*****This is the part for modified******/ 
 $0=10 			
 $1=5 			
-//---基本参数设置-----//
+//---Basic Configrations-----//
 $2=0 			
 $3=0 			
 $4=0 			
@@ -61,7 +54,7 @@ $12=0.002
 $13=0 			
 $20=0 			
 $21=1 			
-//---回零设置----//
+//---Homing Configrations----//
 $22=1 			
 $23=1 			
 $24=300.000 	
@@ -74,7 +67,7 @@ $32=1
 $100=80.000 	
 $101=80.000 	
 $102=80.000 	
-//---速度设置----//
+//---Speed Configrations----//
 $110=6000.000 	
 $111=6000.000 	
 $112=6000.000 	
@@ -85,15 +78,18 @@ $130=300.000
 $131=300.000 	
 $132=80.000 	
 
-//--WIFI配置---//
-//设置wifi模式, STA/AP两种
-[ESP110]STA   	
-//wifi名字
+//--WIFI Configrations-----//
+//STA or AP
+[ESP110]STA  
+ 	
+//WIFI SSID, 1~32 characters
 [ESP100]MAKERBASE3D 	
-//wifi密码，如：[ESP101]makerbase3d
-[ESP101]makerbase3d	
 
-/*---主板信息---*/
+//WIFI KEY, 8~32 characters 
+[ESP101]abcdefgh	
+
+//--Version Configrations-----//
+//--Used to be displayed on About Menu-----//
 //board_info_1
 BoardName:MKS_DLC32
 //board_info_2
