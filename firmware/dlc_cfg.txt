@@ -40,7 +40,7 @@
 *--------------Functions configration format : [ESPxxx]yyy  (Please modify the value of "xxx" and "yyy" according to your requirement)
 
 
-/*****This is the part for modified******/ 
+/*****This is the part for modification******/ 
 $0=10 			
 $1=5 			
 //---Basic Configrations-----//
