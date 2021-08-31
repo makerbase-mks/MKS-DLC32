@@ -1,0 +1,105 @@
+
+/************************************说明***************************************/ 
+ *------$0      //(Step pulse time)                                                                                             
+ *------$1      //(Step idle delay)                                                         
+ *------$2      //(Step pulse invert)                                                       
+ *------$3      //(Step direction invert)                                                   
+ *------$4      //(Invert step enable pin)                                          
+ *------$5      //(Invert limit pins)                                               
+ *------$6      //(Invert probe pin)                                                
+ *------$10     //(Status report options)                                           
+ *------$11     //(Junction deviation)                                              
+ *------$12     //(Arc tolerance)                                                   
+ *------$13     //(Report in inches)                                                
+ *------$20     //(Soft limits enable)                                              
+ *------$21     //(Hard limits enable)                                              
+ *------$22     //(Homing cycle enable)                                             
+ *------$23     //(Homing direction invert)                                         
+ *------$24     //(Homing locate feed rate)                                         
+ *------$25     //(Homing search seek rate)                                         
+ *------$26     //(Homing switch debounce delay)                                    
+ *------$27     //(Homing switch pull-off distance)                                 
+ *------$30     //(Maximum spindle speed)                                           
+ *------$31     //(Minimum spindle speed)                                           
+ *------$32     //(Laser-mode enable)                                               
+ *------$100    //(X-axis travel resolution)                                        
+ *------$101    //(Y-axis travel resolution)                                        
+ *------$102    //(Z-axis travel resolution)                                        
+ *------$110    //(X-axis maximum rate)                                             
+ *------$111    //(Y-axis maximum rate)                                             
+ *------$112    //(Z-axis maximum rate)                                             
+ *------$120    //(X-axis acceleration)                                             
+ *------$121    //(Y-axis acceleration)                                             
+ *------$122    //(Z-axis acceleration)                                             
+ *------$130    //(X-axis maximum travel)                                           
+ *------$131    //(Y-axis maximum travel)                                           
+ *------$132    //(Z-axis maximum travel)                                           
+/*******************************************************************************/ 
+
+/************************************说明***************************************/
+DLC_TEST=1        // 0为正常模式， 1为生产测试模式
+/********************************************************************************/
+
+/************************************说明***************************************/
+*--------------机器参数格式："$x=y"
+*--------------功能配置格式："[ESPXXX]yyy" (xxx 和 yyy请按照说明手册更改)
+
+*------1、不能随意更换机器参数格式中，x的值，否则会出现配置错误导致无法启动
+*------2、不能随意添加可配置项
+/*******************************************************************************/ 
+$0=10 			
+$1=5 			
+//---基本参数设置-----//
+$2=0 			
+$3=0 			
+$4=0 			
+$5=1 			
+$6=0 			
+$10=1 			
+$11=0.010 		
+$12=0.002 		
+$13=0 			
+$20=0 			
+$21=1 			
+//---回零设置----//
+$22=1 			
+$23=1 			
+$24=300.000 	
+$25=1000.000	
+$26=250.000 	
+$27=1.000 		
+$30=1000.000 	
+$31=0.000 		
+$32=1 			
+$100=80.000 	
+$101=80.000 	
+$102=80.000 	
+//---速度设置----//
+$110=6000.000 	
+$111=6000.000 	
+$112=6000.000 	
+$120=500.000 	
+$121=500.000 	
+$122=500.000 	
+$130=300.000 	
+$131=300.000 	
+$132=80.000 	
+
+//--WIFI配置---//
+//设置wifi模式, STA/AP两种
+[ESP110]STA   	
+//wifi名字
+[ESP100]MAKERBASE3D 	
+//wifi密码，如：[ESP101]makerbase3d
+[ESP101]makerbase3d	
+
+/*---主板信息---*/
+//board_info_1
+BoardName:MKS_DLC32
+//board_info_2
+BoardVersion:V2.0
+//board_info_3
+FirmwareVersion:V1.0
+
+
+
