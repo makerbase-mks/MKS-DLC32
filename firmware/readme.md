@@ -1,18 +1,12 @@
-# Readme
 
-## 下载文件列表
+## Method of upload Firmware
 
-- boot_app0.bin
-- bootloader_dout_80m.bin
-- firmware.bin
-- partitions.bin
-- spiffs.bin
+1. On Windows PC, download the "Flash Download Tools" from https://www.espressif.com/en/support/download/other-tools 
+2. Open the "Flash Download Tools", choose "Developer Mode"->ESP32 DowloadTool, and it will open the main menu.
+3. Config the Flash Download Tools
+   3.1 Choose the files listed above and fill the correct address
 
-## 下载方法
-
-使用flashload 3.8.5，选择以上的文件，通过串口进行刷写，每个文件有对应的下载地址配置：
-
-| 文件                    | 地址     |
+| File                    | Address     |
 | ----------------------- | -------- |
 | boot_app0.bin           | 0xe000   |
 | bootloader_dout_80m.bin | 0x1000   |
@@ -20,9 +14,23 @@
 | partitions.bin          | 0x8000   |
 | spiffs.bin              | 0x310000 |
 
-也可以查看dowmload address.txt这个文件，里面也有下载地址的记录。
+3.2 Config the  spiFlash  
+SPI speed: 80MHz  
+SPI MODE: DOUT  
+Flash Size: 32Mbit  
 
-## 配置文件
+3.3 Connect MKS DLC32 to PC using the USB line. Choose the COM of the DLC32, if you can’t find the COM, please check if the CH340 driver has been installed on the PC.
 
-dlc_cfg.txt是DLC32的配置文件，讲它放在SD卡的根目录下，重启DLC32，即可更新配置，更新配置后重启生效。
+3.4 Choose the baudrate which can be over 115200(The greater the baud rate, the faster the transmission speed, but the greater the chance of transmission errors).
+
+
+
+3.5 Press START and it will start to upload, just wait it to be finished.
+
+
+![image](https://user-images.githubusercontent.com/12979070/131484274-b8ff7190-183d-46d5-bcd4-84558b8db5b3.png)
+
+
+
+
 
