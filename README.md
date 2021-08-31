@@ -27,19 +27,19 @@ Here is an introduce video: https://www.youtube.com/watch?v=U_OzlMxwms8&t=6s
 # FIRMWARE
 The firmware of MKS DLC32 has been burned before leaving the factory. If you really need to update the firmware, you can follow the update instructions [here](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware#method-of-upload-firmware).
 
-# Configration file
-When you want to use MKS DLC32 to install to a new machine, you generally need to configure parameters to fit your engraving machine. There are two ways to configure parameters, one is to configure through the configration file, and the other is to configure through a USB connection to the PC software.
+# CONFIGRATION 
+When you want to use MKS DLC32 to install to a new machine, you generally need to configure parameters to fit your engraving machine. There are two ways to configure parameters, one is to configure through the configration file, and the other is to configure through the PC software.
 
 ## Configure through configuration files
 1. Download the configuration file "dlc_cfg.txt" from MKS GITHUB: https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware
-2. Modify the corresponding configuration items according to your engraving machine needs. For specific parameters configrations you can refer to 
+2. Modify the corresponding configuration items according to your engraving machine needs. For specific parameters configrations you can refer to [Parameters configuration](https://github.com/makerbase-mks/MKS-DLC32/blob/main/README.md#parameters-configuration)
 3. Save "dlc_cfg.txt" and copy to TF card.
 4. Insert the TF card to DLC32 motherboard, restart it, and it will be automatically configured.
 
 ## Configure through PC software
 1. Use a USB cable to connect the DLC32 to the PC
 2. Open the LaserGRBL software or LightBurn or other serial tools on the PC (the default baud rate is 115200)
-3. Modify the configuration items. For specific configuration commands, please refer to 
+3. Modify the configuration items. For specific configuration commands, please refer to [Parameters configuration](https://github.com/makerbase-mks/MKS-DLC32/blob/main/README.md#parameters-configuration)
 
 
 ## Parameters configuration 
