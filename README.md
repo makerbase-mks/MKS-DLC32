@@ -4,6 +4,9 @@ The mounting holes and board size of MKS DLC32 are compatible with MKS DLC, and 
 Here is an introduce video: https://www.youtube.com/watch?v=U_OzlMxwms8&t=6s
 ![main](https://user-images.githubusercontent.com/12979070/131437599-2b7aae8f-1569-4e38-b713-bb6b87596be5.png)
 
+# Purchase link
+Aliexpress: https://www.aliexpress.com/item/1005003183498253.html?spm=a2g0o.store_pc_home.productList_8356958.pic_0
+
 # HARDWARE
 ![interface](https://user-images.githubusercontent.com/12979070/131437579-cddae779-2c0f-478e-899e-be1a01e1c4c5.png)
 # Compare between MKS DLC and MKS DLC32
