@@ -15,7 +15,7 @@
 | spiffs.bin              | 0x310000 |
 
 3.2 Config the  spiFlash  
-SPI speed: 80MHz  
+SPI speed: 40MHz  
 SPI MODE: DOUT  
 Flash Size: 32Mbit  
 
@@ -27,8 +27,8 @@ Flash Size: 32Mbit
 
 3.5 Press START and it will start to upload, just wait it to be finished.
 
+![微信图片_20210908150315](https://user-images.githubusercontent.com/12979070/132462121-7d1a2f00-d25f-472e-ae2e-a2404a7efeb4.png)
 
-![image](https://user-images.githubusercontent.com/12979070/131484274-b8ff7190-183d-46d5-bcd4-84558b8db5b3.png)
 
 
 
