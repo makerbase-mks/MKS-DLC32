@@ -26,8 +26,8 @@ Flash Size: 32Mbit
 
 
 3.5 Press START and it will start to upload, just wait it to be finished.
+![微信图片_20210908150315](https://user-images.githubusercontent.com/12979070/132475305-05e8da91-6fd7-432f-96b1-2173386cc1eb.png)
 
-![微信图片_20210908150315](https://user-images.githubusercontent.com/12979070/132467459-1a5ec6e0-db1d-4bc1-9dd9-b70929ad2f48.png)
 
 
 
