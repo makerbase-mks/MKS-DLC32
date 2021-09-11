@@ -8,11 +8,7 @@
 
 | File                    | Address     |
 | ----------------------- | -------- |
-| boot_app0.bin           | 0xe000   |
-| bootloader_dout_80m.bin | 0x1000   |
-| firmware.bin            | 0x10000  |
-| partitions.bin          | 0x8000   |
-| spiffs.bin              | 0x310000 |
+| DLC32_XXXXXXXX_8M_H35_0911.bin | 0x00 |
 
 3.2 Config the  spiFlash  
 SPI speed: 40MHz  
@@ -27,7 +23,6 @@ Flash Size: 32Mbit
 
 3.5 Press START and it will start to upload, just wait it to be finished.
 ![微信图片_20210908150315](https://user-images.githubusercontent.com/12979070/132475305-05e8da91-6fd7-432f-96b1-2173386cc1eb.png)
-
 
 
 
