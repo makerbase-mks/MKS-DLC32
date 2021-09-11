@@ -9,11 +9,8 @@
 SPI speed: 40MHz  
 SPI MODE: DOUT  
 Flash Size: 32Mbit  
-
 3.3 Connect MKS DLC32 to PC using the USB line. Choose the COM of the DLC32, if you can’t find the COM, please check if the CH340 driver has been installed on the PC.  
-
-3.4 Choose the baudrate which can be over 115200(The greater the baud rate, the faster the transmission speed, but the greater the chance of transmission errors).
-
+3.4 Choose the baudrate which can be over 115200(The greater the baud rate, the faster the transmission speed, but the greater the chance of transmission errors).  
 3.5 Press START and it will start to upload, just wait it to be finished.
 
 ![微信图片_20210908150315](https://user-images.githubusercontent.com/12979070/132936561-fb650a06-0da6-4c36-9eb2-2d9574f100eb.png)
