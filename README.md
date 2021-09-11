@@ -28,7 +28,12 @@ Aliexpress: https://www.aliexpress.com/item/1005003183498253.html?spm=a2g0o.stor
 | LightBurn	| Support |	Support |
 
 # FIRMWARE
-The firmware of MKS DLC32 has been burned before leaving the factory. If you really need to update the firmware, you can follow the update instructions [here](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware#method-of-upload-firmware).
+There are several compiled firmwares that can be downloaded here:  
+[For Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/Laser/Normal)  
+[For Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/Laser/CoreXY)  
+[For CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/CNC/Normal)(For beta)  
+[For CNC, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/CNC/CoreXY)(For beta)  
+The firmware of MKS DLC32 has been burned with laser normal machine before leaving the factory. If you need to update the firmware, you can follow the update instructions [here](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware#method-of-upload-firmware).
 
 # CONFIGRATION 
 When you want to use MKS DLC32 to install to a new machine, you generally need to configure parameters to fit your engraving machine. There are two ways to configure parameters, one is to configure through the configration file, and the other is to configure through the PC software.
