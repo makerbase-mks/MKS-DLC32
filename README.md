@@ -39,6 +39,8 @@ The firmware of MKS DLC32 has been burned with laser normal machine before leavi
 
 # Mobile App
 We have developed MKSLaser, the App for mobile phone, which can connect to MKS DLC32, control movement, edit image, upload files and so on. Now the Android verison has been uploaded to [Google Play](https://play.google.com/store/apps/details?id=makerbase.com.mkslaser). And the one for IOS is still under development.
+![H20730396e9f9417b8b05651f1d692a73x](https://user-images.githubusercontent.com/12979070/134457521-72c39e06-5292-453d-881e-71d8285324ee.jpg)
+
 
 # CONFIGRATION 
 When you want to use MKS DLC32 to install to a new machine, you generally need to configure parameters to fit your engraving machine. There are two ways to configure parameters, one is to configure through the configration file, and the other is to configure through the PC software.
