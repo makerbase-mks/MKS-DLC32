@@ -1,8 +1,10 @@
 # MKS-DLC32
 MKS DLC32 motherboard kit, which is an offline engraving master control kit developed for desktop engraving machines. The hardware is equipped with a 32-bit high-speed ESP32 module, integrated WIFI function, and directly drives a 3.5-inch touch color screen; it can realize fast engraving and WEB web pages. Control, mobile phone APP control and other functions.  
-The mounting holes and board size of MKS DLC32 are compatible with MKS DLC, and the it can also be used with the [LaserGRBL](https://lasergrbl.com) and [LightBurn](https://lightburnsoftware.com) PC software.
-Here is an introduce video: https://www.youtube.com/watch?v=U_OzlMxwms8&t=6s
-![main](https://user-images.githubusercontent.com/12979070/131437599-2b7aae8f-1569-4e38-b713-bb6b87596be5.png)
+The mounting holes and board size of MKS DLC32 are compatible with MKS DLC, and the it can also be used with the [LaserGRBL](https://lasergrbl.com) and [LightBurn](https://lightburnsoftware.com) PC software.  
+![main](https://user-images.githubusercontent.com/12979070/131437599-2b7aae8f-1569-4e38-b713-bb6b87596be5.png)   
+## Related tutorials and Notice
+Product introduce video: https://www.youtube.com/watch?v=U_OzlMxwms8&t=6s  
+Basic usage for laser engraving machine: https://www.youtube.com/watch?v=MKRBYVbxJmw&t=139s  
 
 # Purchase link
 Aliexpress: https://www.aliexpress.com/item/1005003183498253.html?spm=a2g0o.store_pc_home.productList_8356958.pic_0
@@ -34,6 +36,9 @@ There are several compiled firmwares that can be downloaded here:
 [For CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/CNC/Normal)(For beta)  
 [For CNC, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/CNC/CoreXY)(For beta)  
 The firmware of MKS DLC32 has been burned with laser normal machine before leaving the factory. If you need to update the firmware, you can follow the update instructions [here](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware#method-of-upload-firmware).
+
+# Mobile App
+We have developed MKSLaser, the App for mobile phone, which can connect to MKS DLC32, control movement, edit image, upload files and so on. Now the Android verison has been uploaded to [Google Play](https://play.google.com/store/apps/details?id=makerbase.com.mkslaser). And the one for IOS is still under development.
 
 # CONFIGRATION 
 When you want to use MKS DLC32 to install to a new machine, you generally need to configure parameters to fit your engraving machine. There are two ways to configure parameters, one is to configure through the configration file, and the other is to configure through the PC software.
