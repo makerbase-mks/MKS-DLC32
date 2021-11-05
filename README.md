@@ -38,7 +38,7 @@ There are several compiled firmwares that can be downloaded here:
 The firmware of MKS DLC32 has been burned with laser normal machine before leaving the factory. If you need to update the firmware, you can follow the update instructions [here](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware#method-of-upload-firmware).
 
 # Mobile App
-We have developed MKSLaser, the App for mobile phone, which can connect to MKS DLC32, control movement, edit image, upload files and so on. Now the Android verison has been uploaded to [Google Play](https://play.google.com/store/apps/details?id=makerbase.com.mkslaser). And the one for IOS is still under development.
+We have developed MKSLaser, the App for mobile phone, which can connect to MKS DLC32, control movement, edit image, upload files and so on. Android verison has been uploaded to [Google Play](https://play.google.com/store/apps/details?id=makerbase.com.mkslaser). For IOS, please search "MKSLaser" on APPLE App Store.
 ![H20730396e9f9417b8b05651f1d692a73x](https://user-images.githubusercontent.com/12979070/134457521-72c39e06-5292-453d-881e-71d8285324ee.jpg)
 
 
