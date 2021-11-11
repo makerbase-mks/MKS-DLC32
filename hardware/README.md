@@ -46,7 +46,7 @@
   - MKS DLC32 V2.1_001 SIZE.pdf
   
   change log
-  - From V1.1_002 version
+  - From V2.0_001 version
     - Mounting hole adjustment 
 	- PCB is black immersion gold 
 	- V2.0_001 change to V2.1_001
