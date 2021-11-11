@@ -35,7 +35,8 @@
 	- Add beerper interface XH2.54-2P
 	- Optimize the driver circuit
 	- Relayout and change board outline
-	- Some io function adjustments 
+	- Some io function adjustments
+	- Microstep settings using DIP switch 
 	- V1.1_002 change to V2.0_001
 
 - V2.1_001
