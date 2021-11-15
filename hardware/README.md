@@ -25,11 +25,11 @@
 	- Fuse use plug-in type
 	- Add debug led for wifi
 	- Reset botton use XH2.54-2P
-    - Optimize the laser and spindle circuit 
+    - Optimize the laser and spindle circuit (Increase diode)
 	- Add beerper interface XH2.54-2P
-	- Optimize the driver circuit
+	- Optimize the driver circuit (add 6.8k for driver output)
 	- Relayout and change board outline
-	- Some io function adjustments
+	- Some io function adjustments (IO32 for TTL, IO22 for Probe, IO2 for wifi debug led)
 	- Microstep settings using DIP switch 
 	- V1.1_002 change to V2.0_001
 
