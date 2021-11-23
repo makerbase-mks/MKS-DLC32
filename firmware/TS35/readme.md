@@ -12,7 +12,8 @@ H35: Horizontal screen- 3.5Inch
 
 N：N for normal machine, C for CoreXY machine
 
-(for DLC V2.x, coreXY): As there is a little difference between DLC V1.x and V2.x boards, so we would explain what board the firmware is suitable for. Please use the correct version, otherwise it may not work.
+(for DLC V2.x, coreXY): As there is a little difference between DLC V1.x and V2.x boards, so we would explain what board the firmware is suitable for. 
+**Please use the correct version, otherwise it may not work.**
 
 
 
