@@ -5,7 +5,7 @@ E.g：
 
 ### V2.0.3_H35_20211108_N
 
-V2.0.4.: Firmware version
+V2.0.3: Firmware version
 
 H35: Horizontal screen- 3.5Inch
 
