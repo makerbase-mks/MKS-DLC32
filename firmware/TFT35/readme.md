@@ -20,7 +20,7 @@ N：N for normal machine, C for CoreXY machine
 
 ### 2021-11-23
 
-**Update version: V2.0.5_H35_20211123_N/V2.0.5_H35_20211123_C**
+**Update version: V2.0.5_H35_20211123_N / V2.0.5_H35_20211123_C**
 
 Fix content
 
