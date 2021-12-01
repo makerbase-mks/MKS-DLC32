@@ -1,4 +1,5 @@
-# Fix
+# Update:
+## 2021.11.23
 **DLC32_CNC_V1.2.001_Normal_8M_H35_1009.bin**
 
  - Fix the problem that $1=255 cannot be locked 
