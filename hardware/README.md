@@ -1,4 +1,28 @@
 # MKS-DLC32 Hardware
+- V2.1_003
+  - MKS DLC32 V2.1_003 TOP.pdf
+  - MKS DLC32 V2.1_003 BOTTOM.pdf
+  - MKS DLC32 V2.1_003 PIN.pdf
+  - MKS DLC32 V2.1_003 SCH.pdf
+  - MKS DLC32 V2.1_003 SIZE.pdf
+  
+  change log
+  - From V2.1_002 version
+    - Add the driver slot silk screen, and the endstops silk screen is on the motherboard BOTTOM
+	- V2.1_002 change to V2.1_003
+
+- V2.1_002
+  - MKS DLC32 V2.1_002 TOP.pdf
+  - MKS DLC32 V2.1_002 BOTTOM.pdf
+  - MKS DLC32 V2.1_002 PIN.pdf
+  - MKS DLC32 V2.1_002 SCH.pdf
+  - MKS DLC32 V2.1_002 SIZE.pdf
+  
+  change log
+  - From V2.1_001 version
+    - The direction of J18 buckle is 180 degrees, the line sequence remains unchanged 
+	- V2.1_001 change to V2.1_002
+  
 - V2.1_001
   - MKS DLC32 V2.1_001 TOP.pdf
   - MKS DLC32 V2.1_001 BOTTOM.pdf
