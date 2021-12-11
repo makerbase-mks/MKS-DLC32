@@ -7,6 +7,8 @@ The firmware of MKS DLC32 has been burned with laser normal machine before leavi
 
 ## Method of upload Firmware
 
+### Windows
+
 1. On Windows PC, download the "Flash Download Tools" from https://www.espressif.com/en/support/download/other-tools 
 2. Open the "Flash Download Tools", choose "Developer Mode"->ESP32 DowloadTool, and it will open the main menu.
 3. Config the Flash Download Tools  
@@ -20,6 +22,21 @@ Flash Size: 32Mbit
 3.5 Press START and it will start to upload, just wait it to be finished.
 
 ![微信图片_20210908150315](https://user-images.githubusercontent.com/12979070/132936561-fb650a06-0da6-4c36-9eb2-2d9574f100eb.png)
+
+
+### Linux
+
+* Install esptool.py
+```
+pip install esptool
+```
+
+* Provide valid path to port/firmware and burn the ESP32 chip
+```
+esptool.py --baud 300000 --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio --flash_size detect 0x0 TS35/Laser/Normal/Board_V2.0/V2.0.4_H35_20211123_N.bin
+```
+
+
 
 
 
