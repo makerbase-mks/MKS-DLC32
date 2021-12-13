@@ -1,5 +1,20 @@
 # Update:
 
+## 2021.12.13
+
+##### V2.0.7_H35_20211213_N_CNC
+
+- Fixed incorrect display of some languages
+- Add FlOOD control function, use M8 control, M9 disable
+
+## 2021.12.07
+
+##### V2.0.6_H35_20211207_N_CNC
+
+- Fixed the incorrect version number displayed when using Lightburn
+- Repair abnormal speed during engraving
+- Join wifi automatic connection
+
 ## 2021.12.06
 
 **V2.0.4_H35_20211206_N_CNC.bin**
