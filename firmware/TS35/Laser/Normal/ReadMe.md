@@ -21,7 +21,7 @@ N：N for normal machine, C for CoreXY machine
 
 ### 2021-12-13
 
-##### Update version: V2.0.7_H35_20211213_N
+**Update version: V2.0.7_H35_20211213_N**
 
 - Fix language display error
 - Join the function of MISP, you can use M7/M9 to control
