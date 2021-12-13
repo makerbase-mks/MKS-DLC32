@@ -24,7 +24,7 @@ N：N for normal machine, C for CoreXY machine
 **Update version: V2.0.7_H35_20211213_N**
 
 - Fix language display error
-- Join the function of MISP, you can use M7/M9 to control
+- Join the function of MISP, you can use M7/M9 to control，Connect the control signal pin to the SCL pin of I2C. The control level of SCL is only 0-3.3V, so an external level conversion module is required for control
 
 ### 2021-12-07
 
