@@ -30,7 +30,7 @@ N：N for normal machine, C for CoreXY machine
 
 **Update version: V2.0.6_H35_20211207_N**
 
-- Fix Wentong with incorrect version number in LightBurn
+- Fix the version number error displayed on Lightburn
 
 ### 2021-11-23
 

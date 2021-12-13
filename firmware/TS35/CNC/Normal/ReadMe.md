@@ -14,6 +14,7 @@
 - Fixed the incorrect version number displayed when using Lightburn
 - Repair abnormal speed during engraving
 - Join wifi automatic connection
+- Add the function of Probe, you can use external probe
 
 ## 2021.12.06
 
