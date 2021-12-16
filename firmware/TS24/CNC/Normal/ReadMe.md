@@ -25,6 +25,7 @@ N：N for normal machine, C for CoreXY machine
 
 - Fix language display error
 - Add FlOOD control function, use M8 control, M9 disable，Connect the control signal pin to the SCL pin of I2C. The control level of SCL is only 0-3.3V, so an external level conversion module is required for control
+- Add the function of Probe, you can use external probe
 
 ### 2021-12-09
 
