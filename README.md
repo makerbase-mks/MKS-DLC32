@@ -33,8 +33,7 @@ Aliexpress: https://www.aliexpress.com/item/1005003183498253.html?spm=a2g0o.stor
 There are several compiled firmwares that can be downloaded here:  
 [For Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/Laser/Normal)  
 [For Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/Laser/CoreXY)  
-[For CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/CNC/Normal)(For beta)  
-[For CNC, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/CNC/CoreXY)(For beta)  
+[For CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/CNC/Normal)
 The firmware of MKS DLC32 has been burned with laser normal machine before leaving the factory. If you need to update the firmware, you can follow the update instructions [here](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware#method-of-upload-firmware).
 
 # Mobile App
@@ -55,7 +54,6 @@ When you want to use MKS DLC32 to install to a new machine, you generally need t
 1. Use a USB cable to connect the DLC32 to the PC
 2. Open the LaserGRBL software or LightBurn or other serial tools on the PC (the default baud rate is 115200)
 3. Modify the configuration items. For specific configuration commands, please refer to [Parameters configuration](https://github.com/makerbase-mks/MKS-DLC32/blob/main/README.md#parameters-configuration)
-
 
 ## Parameters configuration 
 You can use PC software such as GRBLaser to config the parameters by sending commands, here is the list:
