@@ -79,6 +79,7 @@ You can use PC software such as GRBLaser to config the parameters by sending com
 | $25	 | 1000	 | Seek rate to quickly find the limit switch before the slower locating phase. |
 | $26	 | 250 | 	Sets a short delay between phases of homing cycle to let a switch debounce. |
 | $27 | 	1	 | Retract distance after triggering switch to disengage it. Homing will fail if switch isn't cleared. |
+| $28 | 1000	| Modify the output frequency of the spindle, the input range is 0-100000 |
 | $30	 | 1000	 | Maximum spindle speed. Sets PWM to 100% duty cycle. |
 | $31	 | 0	 | Minimum spindle speed. Sets PWM to 0.4% or lowest duty cycle. |
 | $32	 | 1	 | Enables laser mode. Consecutive G1/2/3 commands will not halt when spindle speed is changed. |
