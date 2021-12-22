@@ -19,6 +19,15 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+### 2021-12-22
+
+**Update version: V2.0.8_H24_20211222_N_CNC**
+
+- Fix language errors
+- Update webUI
+- Fix the problem that Probe does not work
+- Optimize wifi function
+
 ### 2021-12-14
 
 **Update version: V2.0.7_H24_20211214_N_CNC**

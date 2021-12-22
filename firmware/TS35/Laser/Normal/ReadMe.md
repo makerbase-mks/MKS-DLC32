@@ -19,6 +19,15 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+### 2021-12-22
+
+##### Update version: V2.0.8_H35_20211222_N
+
+- Fix part of the error display
+- Fix language errors
+- Optimize wifi function
+- WebUI updated
+
 ### 2021-12-13
 
 **Update version: V2.0.7_H35_20211213_N**
