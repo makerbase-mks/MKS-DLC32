@@ -19,6 +19,14 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+### 2021-12-23
+
+**Update version: V2.0.8_H24_20211223_C**
+
+- Adjust X, Y icon position
+
+  
+
 **Update version: V2.0.8_H24_20211222_C**
 
 - Fix language errors

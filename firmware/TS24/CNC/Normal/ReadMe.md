@@ -19,6 +19,14 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+### 2021-12-23
+
+**Update version: V2.0.8_H24_20211223_N_CNC**
+
+- Fix some language description errors
+- Adjust the position of the X and Y icons
+- Fix the problem of incorrect display of the version number on the web
+
 ### 2021-12-22
 
 **Update version: V2.0.8_H24_20211222_N_CNC**
