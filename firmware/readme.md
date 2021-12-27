@@ -7,7 +7,12 @@ The firmware of MKS DLC32 has been burned with laser normal machine before leavi
 
 ## Method of upload Firmware
 
-### Windows
+You can either use the "MKS ESP32 Download Tool" or "Flash Download Tools" upload firmware of MKS DLC32.
+### MKS ESP32 Download Tool
+MKS ESP32 Download Tool is specially developed by MKS to simplify the uploading operation. It is recommended to use. For detailed usage, please refer to:https://github.com/makerbase-mks/MKS-DLC32/blob/main/doc/DLC32%20Firmware%20Programming%20Instructions.pdf
+
+### Flash Download Tools
+#### Windows
 
 1. On Windows PC, download the "Flash Download Tools" from https://www.espressif.com/en/support/download/other-tools 
 2. Open the "Flash Download Tools", choose "Developer Mode"->ESP32 DowloadTool, and it will open the main menu.
@@ -24,7 +29,7 @@ Flash Size: 32Mbit
 ![微信图片_20210908150315](https://user-images.githubusercontent.com/12979070/132936561-fb650a06-0da6-4c36-9eb2-2d9574f100eb.png)
 
 
-### Linux
+#### Linux
 
 * Install esptool.py
 ```
