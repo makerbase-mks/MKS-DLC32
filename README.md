@@ -11,6 +11,10 @@ Aliexpress: https://www.aliexpress.com/item/1005003183498253.html?spm=a2g0o.stor
 
 # HARDWARE
 ![interface](https://user-images.githubusercontent.com/12979070/131437579-cddae779-2c0f-478e-899e-be1a01e1c4c5.png)
+
+## Wiring 
+For detailed wiring method, please refer to: https://github.com/makerbase-mks/MKS-DLC32/blob/main/doc/DLC32%20wiring%20manual.pdf
+
 # Compare between MKS DLC and MKS DLC32
 | ITEMS      |  MKS DLC  | MKS DLC32 |
 |------------|--------------------|--------------------|
