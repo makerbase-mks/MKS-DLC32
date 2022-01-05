@@ -1,5 +1,13 @@
 # Update:
 
+### 2022-01-05
+
+##### Update version: V2.0.8_H35_20211222_N_CNC
+
+- Fix the problem that the configuration file cannot be recognized
+- Fix the WiFi name is not displayed after automatically connecting to WiFi
+- Cancel M7, retain M8, release Z limit function, you can configure whether Z return to zero is required through instructions
+
 ### 2021-12-22
 
 ##### Update version: V2.0.8_H35_20211222_N_CNC

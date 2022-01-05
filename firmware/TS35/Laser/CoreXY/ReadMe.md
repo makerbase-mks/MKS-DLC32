@@ -19,6 +19,15 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+### 2022-01-05
+
+##### Update version: V2.0.8_H35_20220105_C
+
+- Fixed the problem of "warning text" displayed abnormally in the pop-up window after clicking the positioning during the moving process
+- In the Chinese environment, the display of "Continue/Cancel" in the pop-up window of more than 1M side patrol is missing
+- Unable to flash configuration file
+- Inaccurate screen edge size
+
 ### 2021-12-22
 
 ##### Update version: V2.0.8_H35_20211222_C
