@@ -19,6 +19,13 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+### 2022-01-08
+
+**Update version: V2.0.8_H24_20220108_N_CNC**
+
+- Change the direction of the Y-axis of the control interface to make it consistent with the direction of LASERGRBL
+- On the keyboard, use "AB" and "ab" to replace spaces when switching between uppercase and lowercase
+
 ### 2021-12-23
 
 **Update version: V2.0.8_H24_20211223_N_CNC**
