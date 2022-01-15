@@ -36,9 +36,15 @@ For detailed wiring method, please refer to: https://github.com/makerbase-mks/MK
 
 # FIRMWARE
 There are several compiled firmwares that can be downloaded here:  
-[For Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/Laser/Normal)  
-[For Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/Laser/CoreXY)  
-[For CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/CNC/Normal)
+[For TS35, Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser/Normal)  
+[For TS35, Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser/CoreXY)  
+[For TS35, CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/CNC/Normal)  
+
+[For TS24, Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/Laser/Normal)  
+[For TS24, Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/Laser/CoreXY)  
+[For TS24, CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/CNC/Normal)  
+
+Please note what is your board version and choose the correct one.  
 The firmware of MKS DLC32 has been burned with laser normal machine before leaving the factory. If you need to update the firmware, you can follow the update instructions [here](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware#method-of-upload-firmware).
 
 # Mobile App
