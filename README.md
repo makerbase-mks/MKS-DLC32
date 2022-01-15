@@ -7,9 +7,6 @@ The mounting holes and board size of MKS DLC32 are compatible with MKS DLC, and 
 Product introduce video: https://www.youtube.com/watch?v=U_OzlMxwms8&t=6s  
 Basic usage for laser engraving machine: https://www.youtube.com/watch?v=MKRBYVbxJmw&t=139s  
 
-# Purchase link
-Aliexpress: https://www.aliexpress.com/item/1005003183498253.html?spm=a2g0o.store_pc_home.productList_8356958.pic_0
-
 # HARDWARE Wiring 
 For detailed wiring method, please refer to: https://github.com/makerbase-mks/MKS-DLC32/blob/main/doc/DLC32%20wiring%20manual.pdf
 
@@ -36,6 +33,10 @@ Refer to the wiki:https://github.com/makerbase-mks/MKS-DLC32/wiki/Firmware
 
 # Mobile App
 Refer to the wiki:https://github.com/makerbase-mks/MKS-DLC32/wiki/Mobile-App
+
+
+# Purchase link
+Aliexpress: https://www.aliexpress.com/item/1005003183498253.html?spm=a2g0o.store_pc_home.productList_8356958.pic_0
 
 ## Note
 - Thank you for using MKS products. If you have any questions during use, please contact us in time and we will work with you to solve it.
