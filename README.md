@@ -34,6 +34,8 @@ Refer to the wiki:https://github.com/makerbase-mks/MKS-DLC32/wiki/Firmware
 # Mobile App
 Refer to the wiki:https://github.com/makerbase-mks/MKS-DLC32/wiki/Mobile-App
 
+# Wiki
+https://github.com/makerbase-mks/MKS-DLC32/wiki
 
 # Purchase link
 Aliexpress: https://www.aliexpress.com/item/1005003183498253.html?spm=a2g0o.store_pc_home.productList_8356958.pic_0
