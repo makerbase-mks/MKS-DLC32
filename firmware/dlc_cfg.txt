@@ -73,11 +73,11 @@ $40=1
 $41=0
 
 //(X-axis travel resolution)
-$100=80.000
+$100=400.000
 //(Y-axis travel resolution)  	
-$101=80.000 
+$101=400.000 
 //(Z-axis travel resolution) 	
-$102=80.000 
+$102=400.000 
 	
 //---Speed setting----//
 //(X-axis maximum rate)
