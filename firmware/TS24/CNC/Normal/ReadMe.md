@@ -19,6 +19,16 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+### 2022-05-11
+
+##### Update version: V2.1.0_H24_20220511_01_N_CNC
+
+- Add on-screen knife buttons
+- Add button sound and Chinese environment
+- Disable the automatic return to zero after the engraving is complete
+- Adjust the WEB interface
+- Fix some known bugs
+
 ### 2022-01-08
 
 **Update version: V2.0.8_H24_20220108_N_CNC**
