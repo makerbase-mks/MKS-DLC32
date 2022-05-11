@@ -1,4 +1,13 @@
 # Update:
+### 2022-05-11
+
+##### Update version: V2.1.0_H35_20220510_N_CNC_001
+
+- Add on-screen knife buttons
+- Add button sound and Chinese environment
+- Disable the automatic return to zero after the engraving is complete
+- Adjust the WEB interface
+- Fix some known bugs
 
 ### 2022-01-05
 
