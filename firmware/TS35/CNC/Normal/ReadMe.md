@@ -1,4 +1,13 @@
 # Update:
+### 2022-06-25
+
+##### Update version: V2.1.0_H35_20220526_02_N_CNC
+
+- Add the thickness setting of the short-circuit block (set the value of $46)
+- Add hard reset button and sound control switch button on the screen
+- Add symbol "_" to keyboard
+- Fix some known bugs
+
 ### 2022-05-11
 
 ##### Update version: V2.1.0_H35_20220510_N_CNC_001
