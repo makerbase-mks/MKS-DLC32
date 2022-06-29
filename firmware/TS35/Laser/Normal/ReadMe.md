@@ -19,6 +19,17 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+### 2022-06-29
+
+##### Update version: V2.10_H35_2022_0621_N_ZX_001
+
+- Add z-axis control on the screen
+- Add German, Spanish and Portuguese
+- Add a cooling button
+- Add the symbol "_" to the keyboard
+- Fix some known bugs
+
+
 ### 2022-01-05
 
 ##### Update version: V2.0.8_H35_20220105_N
