@@ -16,6 +16,17 @@ N：N for normal machine, C for CoreXY machine
 (for DLC V2.x, coreXY): As there is a little difference between DLC V1.x and V2.x boards, so we would explain what board the firmware is suitable for. Please use the correct version, otherwise it may not work.
 
 
+### 2022-07-04
+
+##### Update version: V2.10_H35_2022_0704_C_ZX_001
+
+- Add z-axis control on the screen
+- Add German, Spanish and Portuguese
+- Add a cooling button
+- Add the symbol "_" to the keyboard
+- Fix some known bugs
+
+
 
 ## Update:
 
