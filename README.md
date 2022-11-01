@@ -29,7 +29,7 @@ For detailed wiring method, please refer to: https://github.com/makerbase-mks/MK
 | LightBurn          | Support             | Support                     |
 
 # FIRMWARE
-Refer to the wiki:https://github.com/makerbase-mks/MKS-DLC32/wiki/Firmware
+Refer to the wiki:https://github.com/makerbase-mks/MKS-DLC32/wiki/Firmware  
 Source: https://github.com/makerbase-mks/MKS-DLC32-FIRMWARE  
 
 # Mobile App
