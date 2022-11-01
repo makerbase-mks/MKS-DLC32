@@ -30,6 +30,7 @@ For detailed wiring method, please refer to: https://github.com/makerbase-mks/MK
 
 # FIRMWARE
 Refer to the wiki:https://github.com/makerbase-mks/MKS-DLC32/wiki/Firmware
+Source: https://github.com/makerbase-mks/MKS-DLC32-FIRMWARE  
 
 # Mobile App
 Refer to the wiki:https://github.com/makerbase-mks/MKS-DLC32/wiki/Mobile-App
