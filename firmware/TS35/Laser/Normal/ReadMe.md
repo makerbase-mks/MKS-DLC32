@@ -19,6 +19,18 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+
+### 2022-11-04
+
+##### Update version: V2.20_H35_2022_1101_N_ZX_002
+
+- Change the UI
+- Optimize file transfer
+- Added WiFi mode switching through the screen
+- Fix some known bugs
+
+
+
 ### 2022-06-29
 
 ##### Update version: V2.10_H35_2022_0621_N_ZX_001
