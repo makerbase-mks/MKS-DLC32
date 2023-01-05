@@ -8,15 +8,14 @@ If you bought a MKS model with an additional Display you need to choose its type
 For CNC, there is only one choice, but if you are using a nomral Device,one with CoreXY you need to decide between them.
 For more information about CoreXY see [this](https://en.wikipedia.org/wiki/CoreXY) article.
 
-[For T24 Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/Laser) 
-[For T35 Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser) 
+[For T24 Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/Laser)  
+[For T35 Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser)  
 [For T24 Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/Laser/CoreXY)  
 [For T35 Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser/CoreXY)  
+[For all versions without display](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser)  
 
-[For all versions without display](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser)
-
-[For T24 CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/CNC/Normal)(For beta)  
-[For T35 CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/CNC/Normal)(For beta)  
+[For T24 CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/CNC/Normal)(For beta)    
+[For T35 CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/CNC/Normal)(For beta)   
 
 
 The firmware of MKS DLC32 has been burned with laser normal machine before leaving the factory. 
