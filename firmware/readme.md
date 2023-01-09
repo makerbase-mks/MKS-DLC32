@@ -1,13 +1,29 @@
 ## List of upload Firmware
 There are several compiled firmwares that can be downloaded here:  
-[For Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/Laser/Normal)  
-[For Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/Laser/CoreXY)  
-[For CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/CNC/Normal)(For beta)  
+
+If you bought a MKS model with an additional Display you need to choose its type (either [T24](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24) or [T35](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35)).
+
+!If you are using your MKS board without a display, it does not matter what Txx version you choose.!
+
+For CNC, there is only one choice, but if you are using a nomral Device,one with CoreXY you need to decide between them.
+For more information about CoreXY see [this](https://en.wikipedia.org/wiki/CoreXY) article.
+
+[For T24 Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/Laser)  
+[For T35 Laser, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser)  
+[For T24 Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/Laser/CoreXY)  
+[For T35 Laser, CoreXY machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser/CoreXY)  
+[For all versions without display](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/Laser)  
+
+[For T24 CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS24/CNC/Normal)(For beta)    
+[For T35 CNC, normal machine](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/TS35/CNC/Normal)(For beta)   
+
+
 The firmware of MKS DLC32 has been burned with laser normal machine before leaving the factory. 
 
 ## Method of upload Firmware
 
-You can either use the "MKS ESP32 Download Tool" or "Flash Download Tools" upload firmware of MKS DLC32.
+You can either use the "[MKS ESP32 Download Tool](https://github.com/makerbase-mks/MKS-DLC32/tree/main/firmware/tool)" or "Flash Download Tools" to upload firmware of MKS DLC32.
+
 ### MKS ESP32 Download Tool
 MKS ESP32 Download Tool is specially developed by MKS to simplify the uploading operation. It is recommended to use. For detailed usage, please refer to:https://github.com/makerbase-mks/MKS-DLC32/blob/main/doc/DLC32%20Firmware%20Programming%20Instructions.pdf
 
@@ -40,12 +56,3 @@ pip install esptool
 ```
 esptool.py --baud 300000 --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio --flash_size detect 0x0 TS35/Laser/Normal/Board_V2.0/V2.0.4_H35_20211123_N.bin
 ```
-
-
-
-
-
-
-
-
-
