@@ -19,6 +19,16 @@ N：N for normal machine, C for CoreXY machine
 
 ## Update:
 
+### 2022-12-23
+
+##### Update version: V2.30_H35_2022_1223_N_ZX_001
+
+- Fixed incompatibility between UI buttons and background
+- Fixed an issue where WiFi could not be found
+- Temporarily cancel automatic WiFi reconnection
+- Fixed some other known bugs
+
+
 
 ### 2022-11-04
 
