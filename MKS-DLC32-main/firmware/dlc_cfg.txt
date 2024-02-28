@@ -1,0 +1,110 @@
+﻿/***************************************************************************/
+DLC_TEST=0        //Model： 0：Usage mode， 1：Test mode
+/********************************************************************************/
+
+/***************************************************************************/
+*--------------Machine parameter format："$x=y"
+*--------------Function configuration format："[ESPXXX]yyy" 
+*--!!!WARNING!!!--*
+*------1.Do not change the value of x in the machine parameter format at will, 
+         otherwise a configuration error will occur and it will not start
+*------2.Can't add configurable items at will
+/*******************************************************************************/ 
+// (Step pulse time：Sets time length per step. Minimum 3usec.)
+$0=10 	
+// (Step idle delay:Sets a short hold delay when stopping 
+// to let dynamics settle before disabling steppers.
+// Value 255 keeps motors enabled with no delay.)		
+$1=5 		
+//---Basic parameter setting-----//
+//(Step pulse invert) 
+$2=0 			
+//(Step direction invert)
+$3=0 			
+//(Invert step enable pin)  
+$4=0 
+//(Invert limit pins) 			
+$5=1 	
+//(Invert probe pin) 		
+$6=0 
+//(Status report options)			
+$10=1 
+//(Junction deviation) 			
+$11=0.010 	
+//(Arc tolerance)   	
+$12=0.002
+//(Report in inches) 		
+$13=0 
+//(Soft limits enable)			
+$20=0 
+//(Hard limits enable)			
+$21=1 		
+	
+//---Zero setting----//
+/(Homing cycle enable)
+$22=1 
+//(Homing direction invert)			
+$23=1 	
+//(Homing locate feed rate) 		
+$24=300.000
+//(Homing search seek rate)  	
+$25=1000.000
+//(Homing switch debounce delay)	
+$26=250.000
+//(Homing switch pull-off distance)  	
+$27=1.000 	
+//(Maximum spindle speed)	
+$30=1000.000 
+//(Minimum spindle speed) 	
+$31=0.000
+
+//---Protection function setting----//
+//(Laser-mode enable)	
+$32=1
+//(Flame  1:Turn on,0:close) 
+$37=0 
+//(Beep 1:Turn on,0:close)  
+$38=0 
+//(Gyro 1:Turn on,0:close)      	
+$39=0
+//(Set Language, 0: ch, 1:en 2:de)
+$40=1
+//(Roller 1:Turn on,0:close) 	
+$41=0
+
+//(X-axis travel resolution)
+$100=80.000
+//(Y-axis travel resolution)  	
+$101=80.000 
+//(Z-axis travel resolution) 	
+$102=80.000 
+	
+//---Speed setting----//
+//(X-axis maximum rate)
+$110=6000.000 	
+//(Y-axis maximum rate)
+$111=6000.000
+//(Z-axis maximum rate) 	
+$112=6000.000 	
+//(X-axis acceleration) 
+$120=500.000 
+//(Y-axis acceleration) 	
+$121=500.000 
+//(Z-axis acceleration)	
+$122=500.000 
+//(X-axis maximum travel)   	
+$130=300.000 
+//(Y-axis maximum travel) 	
+$131=300.000
+//(Z-axis maximum travel)  	
+$132=80.000 	
+
+//--WIFI configuration---//
+[ESP110]STA
+[ESP131]8080	
+//wifi name
+[ESP100]MAKERBASE3D 	
+//wifi password，：[ESP101]makerbase3d
+[ESP101]makerbase3d	
+
+/*---modify2021-11---*/
