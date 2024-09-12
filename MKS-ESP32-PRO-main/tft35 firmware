@@ -1,1 +1,6 @@
-tft35 firmware
+git clone https://github.com/username/repository.git
+mkdir new_folder
+echo "Some content" > new_folder/new_file.txt
+git add new_folder/
+git commit -m "Add new folder and file"
+git push origin main
